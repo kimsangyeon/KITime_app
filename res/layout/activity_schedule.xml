@@ -1,0 +1,1138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".ScheduleActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.033"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/schedulelogo"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/monbtnid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/monday" />
+
+            <Button
+                android:id="@+id/tuesbtnid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/tuesday" />
+
+            <Button
+                android:id="@+id/wednesbtnid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/wednesday" />
+
+            <Button
+                android:id="@+id/thurbtnid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/thursday" />
+
+            <Button
+                android:id="@+id/fribtnid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/friday" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/onetimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/onetime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_41"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_51"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/twotimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/twotime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_42"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_52"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/threetimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/threetime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_43"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_53"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/fourtimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/fourtime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_34"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_44"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_54"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/fivetimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/fivetime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_35"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_45"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_55"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/sixtimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/sixtime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_36"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_46"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_56"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/seventimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/seventime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_37"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_47"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_57"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/eighttimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/eighttime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_38"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_48"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_58"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schedule9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/ninetimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/ninetime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_39"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_49"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_59"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleA"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/Atimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/atime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_110"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_210"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_310"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_410"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_510"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleB"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/Btimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/btime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_111"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_211"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_311"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_411"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_511"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleC"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/Ctimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/ctime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_112"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_212"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_312"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_412"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_512"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleD"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/Dtimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/dtime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_113"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_213"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_313"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_413"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_513"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleE"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/Etimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/etime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_114"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_214"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_314"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_414"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_514"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scheduleF"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0602"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/Ftimeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:background="@drawable/ftime"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/scheduleid_115"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_215"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_315"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_415"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+
+            <Button
+                android:id="@+id/scheduleid_515"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.18"
+                android:background="@drawable/schedulebasic"
+                android:onClick="onClickBtn"
+                android:textSize="3.7pt" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/scheduleview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/scheduleview1Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="@android:color/white"
+            android:src="@drawable/basketxml" >
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/totalnumtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="학점:0"
+            android:textSize="7pt" />
+
+        <ImageButton
+            android:id="@+id/gradebtn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="35dp"
+            android:layout_marginRight="7dp"
+            android:background="@android:color/transparent"
+            android:onClick="onClickGradeBtn"
+            android:src="@drawable/gradebtn" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/scheduleview2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/scheduleview2Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:background="@android:color/white"
+            android:src="@drawable/basketxml" >
+        </ImageButton>
+
+        <ListView
+            android:id="@+id/basket_schedulelist_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true" >
+        </ListView>
+    </LinearLayout>
+
+</FrameLayout>

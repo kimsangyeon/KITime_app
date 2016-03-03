@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KITime</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">로그아웃</string>
+    <string name="action_question">도움말</string>
+    <string name="app_id">796156373748640</string>
+    <string name="share">Share</string>
+
+</resources>

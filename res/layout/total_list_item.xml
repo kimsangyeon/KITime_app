@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linear_totallistid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/total_nametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/total_codetxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/total_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:max="100"
+        android:progress="10" />
+
+    <TextView
+        android:id="@+id/total_numtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="@android:color/holo_green_dark"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="12dp" />
+
+</LinearLayout>

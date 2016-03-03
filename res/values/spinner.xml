@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="grade">
+        <item>전체</item>
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+        <item>4학년</item>
+    </string-array>
+    <string-array name="option">
+        <item>과목구분</item>
+        <item>전문교양</item>
+        <item>MSC</item>
+        <item>전공</item>
+        <item>교직</item>
+    </string-array>
+    <string-array name="major">
+        <item>학과                </item>
+    </string-array>
+
+</resources>

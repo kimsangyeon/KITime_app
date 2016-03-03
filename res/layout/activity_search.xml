@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linear_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Spinner
+                android:id="@+id/optionspin_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35" />
+
+            <Spinner
+                android:id="@+id/gradespin_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+
+            <Spinner
+                android:id="@+id/majorspin_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" />
+
+            <ImageButton
+                android:id="@+id/searchbtn_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/searchxml"
+                android:onClick="onClickSearch" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/search_list_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/searchview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/searchview1Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="@android:color/white"
+            android:src="@drawable/basketxml" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/searchview2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="#000000" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/searchview2Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:background="@android:color/white"
+                android:src="@drawable/basketxml" >
+            </ImageButton>
+
+            <ListView
+                android:id="@+id/basket_searchlist_id"
+                android:background="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/shop_list_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="#FFD8D8"
+        android:dividerHeight="0.67dp"
+        android:overScrollMode="always"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/downbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:background="#00000000"
+        android:src="@drawable/downxml" />
+
+</FrameLayout>
